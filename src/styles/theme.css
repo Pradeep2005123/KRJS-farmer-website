@@ -1,0 +1,40 @@
+/* ===== Buttons ===== */
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn-secondary {
+  background: var(--secondary);
+  color: white;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-dark);
+}
+
+/* ===== Cards ===== */
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
